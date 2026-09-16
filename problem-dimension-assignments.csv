@@ -1,0 +1,52 @@
+problem,primary_affected_dimension,other_affected_dimensions
+D01.1.1 Lack of data — empty fields,Internal Completeness,"Compliance, Syntactic Accuracy, Semantic Accuracy"
+D01.1.2 Lack of data — incomplete fields,Internal Completeness,"Semantic Accuracy, Syntactic Accuracy, Precision, Appropriateness, Compliance, External Completeness"
+D01.1.3 Lack of records,Internal Completeness,"External Accuracy, External Completeness"
+D01.1.4 Lack of source,Provenance,"External Accuracy, Trustworthiness, External Completeness, Coherence"
+D01.1.5 Lack of information about the person responsible for uncertain statements,Trustworthiness,"External Completeness, Internal Completeness"
+D01.1.6 Lack of metadata,Internal Completeness,"Causal Traceability, Temporal Traceability, Trustworthiness, Provenance, Appropriateness, External Completeness"
+D01.1.7 Lack of rights statement and/or license,Internal Completeness,"External Completeness, Compliance, Availability"
+D01.1.8 No rating of a source in the data,Trustworthiness,"Provenance, Internal Completeness"
+D01.2 Unmarked multilingualism,Appropriateness,"Versatility, Syntactic Accuracy, Coherence, Compliance"
+D01.3.1 Heterogeneous structural representations,Coherence,"Compliance, Syntactic Accuracy, Appropriateness"
+D01.3.2 Heterogeneous precision of data,Coherence,"Precision, Compliance"
+D01.3.3 Heterogeneous qualifiers of uncertainty,Coherence,"Compliance, Appropriateness"
+D01.3.4 Heterogeneous value representations,Coherence,"Compliance, Appropriateness"
+D02.1 Spelling errors,Compliance,"Appropriateness, Syntactic Accuracy"
+D02.2 Incorrect information,Semantic Accuracy,
+D02.3 Incorrect use of controlled vocabulary / authority file,External Accuracy,"External Completeness, Data Currency, Compliance, Semantic Accuracy"
+D02.4 Incorrectly placed information,Compliance,"Appropriateness, Coherence, Semantic Accuracy, External Accuracy"
+D02.4.1 Multiple units of information in a single repeatable field,Compliance,"Syntactic Accuracy, Appropriateness"
+D02.5.1 Non-matching date dependencies,Logical Consistency,"Semantic Accuracy, Time Concurrency"
+D02.5.2 Non-matching functional dependencies of categorizations,Logical Consistency,"Semantic Accuracy, Trustworthiness"
+D02.5.3 Non-matching dependencies of spatial statements,Logical Consistency,Semantic Accuracy
+D02.5.4 Violation of dependencies between mandatory statements,Internal Completeness,"Syntactic Accuracy, External Completeness"
+D03.1 Multiple data elements describing the same entity,Compactness,
+D03.2 Redundancies in data,Compactness,
+D04.1 Inconsistent use of units or metric systems,Coherence,Versatility
+D04.2 Missing units of measurement,Internal Completeness,"Semantic Accuracy, Appropriateness, Compliance, Precision, Versatility"
+D05.1 Missing references between data records,External Completeness,Internal Completeness
+D05.2 Reference to a non-existent data record,External Completeness,"Internal Completeness, External Accuracy, Trustworthiness"
+D05.3 Ambiguous reference to a data record,Logical Consistency,"Syntactic Accuracy, External Accuracy, External Completeness, Internal Completeness, Availability, Compactness"
+D05.4 Ambiguous reference to described (real) entity,External Accuracy,"Appropriateness, Compliance, Semantic Accuracy"
+D05.5 Untraceable resource from URI namespaces,Availability,"External Accuracy, External Completeness, Appropriateness"
+D06.1 Questionable data,Trustworthiness,"Semantic Accuracy, Provenance"
+D06.2 Imprecision,Precision,Appropriateness
+D06.3 Contradiction,Logical Consistency,"Semantic Accuracy, Compliance"
+D06.4 Unmarked uncertainties in data,Internal Completeness,"Compliance, Semantic Accuracy, Precision, Appropriateness"
+D06.5 Implicitly marked uncertainties,Compliance,"Semantic Accuracy, Internal Completeness, Syntactic Accuracy, Appropriateness, Versatility"
+D06.6 Undescribed dependencies between uncertain statements,Semantic Accuracy,"Internal Completeness, Compliance"
+D06.7 Lack of qualification of uncertainty,Compliance,"Internal Completeness, Precision"
+D06.7.1 Indeterminate degree of uncertainty,Compliance,"Internal Completeness, Precision"
+D06.8 Heterogeneous representations of uncertainty,Coherence,"Appropriateness, Compliance"
+D07.1 Undocumented data dynamics (in the data itself),Temporal Traceability,"Causal Traceability, Internal Completeness, Time Concurrency, Logical Consistency"
+D07.2 Undocumented data changes caused by model dynamics,Temporal Traceability,
+D07.3 Outdated data,Data Currency,"Data Update Currency, Semantic Accuracy, Appropriateness"
+D08 Subjectivity,Trustworthiness,Semantic Accuracy
+D09 Implicit knowledge,Internal Completeness,Appropriateness
+D09.1 Use of non-standard symbols to express certain facts,Appropriateness,"Compliance, Coherence"
+D10.1 Violation of controlled vocabularies (use of custom values),Syntactic Accuracy,"Coherence, External Completeness, Internal Completeness, Appropriateness"
+D10.2 Lack of reference to authority data (global comparability),Compliance,"External Completeness, Appropriateness"
+D10.3 Unnecessary use of custom controlled vocabulary,Compliance,"External Completeness, Coherence, Appropriateness, Data Currency, Compactness, Time Concurrency, Internal Completeness"
+D11 Violation of format specifications,Compliance,"Syntactic Accuracy, Appropriateness, Versatility"
+D12 Incompatible data types,Syntactic Accuracy,"Semantic Accuracy, Appropriateness, Precision"

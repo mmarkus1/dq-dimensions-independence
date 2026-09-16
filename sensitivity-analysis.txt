@@ -1,0 +1,23 @@
+Console output of `uv run analyze_independence.py`:
+
+problems: 51
+dimensions with at least one assignment: 20
+assignments: 185
+pairs: 190
+pairs with min expected count < 5: 176
+pairs with min expected count < 1: 105
+uncorrected Fisher p < 0.05: 12
+Holm-adjusted p < 0.05: 0
+Benjamini-Hochberg q < 0.05: 0
+
+sensitivity to the choice of test
+  Fisher throughout, uncorrected p < 0.05: 12
+  mixed strategy,    uncorrected p < 0.05: 14
+  Fisher throughout, Holm-adjusted p < 0.05: 0
+  mixed strategy,    Holm-adjusted p < 0.05: 0
+  identical set of significant pairs after correction: True
+  pairs meeting the expected-count criterion: 14
+  Fisher is more conservative on all of them: True
+  mean difference in p: +0.0651
+median |phi|: 0.109
+pairs with |phi| < 0.3: 174
